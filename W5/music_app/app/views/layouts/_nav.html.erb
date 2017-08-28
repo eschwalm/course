@@ -1,0 +1,9 @@
+<nav class="nav">
+  <% if logged_in? %>
+    <h5><%= current_user.email %></h5>
+    <h5><%= button_to 'Logout', session_url, method: "delete" %></h5>
+  <% else %>
+    <h5><%= link_to 'Sign up', new_user_url %></h5>
+    <h5><%= link_to 'Sign in', new_session_url %></h5>
+  <% end %>
+</nav>

@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  padding-right: 10px;
+}
+
+.nav h5 {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  justify-content: space-around;
+  margin-right: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
